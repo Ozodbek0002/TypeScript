@@ -64,18 +64,4 @@ let MyStudent: Userr = {
 // };
 
 
-class Dogs{
-    name:string;
-    age:number;
-
-    constructor(name:string, age:number){
-        this.name = name;
-        this.age = age;
-    }
-}
-
-
-let Mydog = new Dogs('Rex', 3);
-
-console.log(Mydog.name);
 

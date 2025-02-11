@@ -42,12 +42,4 @@ let MyStudent = {
 //   name: "Rex",
 //   voise: () => console.log("Woof!"),
 // };
-class Dogs {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-}
-let Mydog = new Dogs('Rex', 3);
-console.log(Mydog.name);
 //# sourceMappingURL=app.js.map
