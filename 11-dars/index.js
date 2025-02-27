@@ -31,4 +31,12 @@ var Animals;
 })(Animals || (Animals = {}));
 let MyTigr = new Animals.Tigr("Sherbek", "RRRRRRR");
 MyTigr.say();
+var StringOperations;
+(function (StringOperations) {
+    function toUpperCase(a) {
+        return a.toUpperCase();
+    }
+    StringOperations.toUpperCase = toUpperCase;
+})(StringOperations || (StringOperations = {}));
+console.log(StringOperations.toUpperCase("salom"));
 //# sourceMappingURL=index.js.map

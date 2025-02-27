@@ -33,3 +33,14 @@ namespace Animals {
 let MyTigr = new Animals.Tigr("Sherbek","RRRRRRR")
 
 MyTigr.say();
+
+
+
+namespace StringOperations {
+
+  export function toUpperCase(a: string): string {
+      return a.toUpperCase();
+  }
+}
+
+console.log(StringOperations.toUpperCase("salom"))
